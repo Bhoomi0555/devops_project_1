@@ -6,7 +6,7 @@ COPY requirements files
 
 RUN pip install -r requirements.txt
 
-copy . 
+COPY . . 
 
 EXPOSE 5000
 
